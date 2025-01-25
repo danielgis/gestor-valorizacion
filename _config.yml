@@ -1,0 +1,3 @@
+include:
+  - _* # Incluye todos los directorios y archivos que comienzan con "_"
+  - _*/** # Incluye también los subdirectorios y archivos dentro de ellos
