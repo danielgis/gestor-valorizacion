@@ -26,8 +26,8 @@
           },
           {
             "fieldName": "zonificacion",
-            "isEditable": true,
-            "visible": true
+            "isEditable": false,
+            "visible": false
           },
           {
             "fieldName": "info_anun",
@@ -81,8 +81,8 @@
           },
           {
             "fieldName": "val_m2",
-            "isEditable": true,
-            "visible": true
+            "isEditable": false,
+            "visible": false
           },
           {
             "fieldName": "fuente",
@@ -226,8 +226,8 @@
           },
           {
             "fieldName": "FOTO2",
-            "isEditable": false,
-            "visible": false
+            "isEditable": true,
+            "visible": true
           }
         ],
         "_editFlag": true,
@@ -267,6 +267,18 @@
           ]
         },
         "attachmentValidations": {}
+      },
+      {
+        "featureLayer": {
+          "id": "limite_nacionalV2_8724"
+        },
+        "disableGeometryUpdate": false,
+        "allowUpdateOnly": true,
+        "allowDelete": false,
+        "fieldInfos": [],
+        "_editFlag": null,
+        "fieldValidations": {},
+        "relationshipInfos": []
       }
     ],
     "honorWebMapConfiguration": false,
@@ -276,9 +288,9 @@
     "displayPromptOnDelete": true,
     "removeOnSave": true,
     "useFilterEditor": false,
-    "listenToGF": false,
+    "listenToGF": true,
     "editAddDataLayers": false,
-    "keepTemplateSelected": false,
+    "keepTemplateSelected": true,
     "editGeometryDefault": true,
     "autoSaveEdits": false,
     "showValuePicker": false,
