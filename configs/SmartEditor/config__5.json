@@ -3,44 +3,34 @@
     "layerInfos": [
       {
         "featureLayer": {
-          "id": "CF_ObservatorioValores2024_2031"
+          "id": "CF_ObservatorioValores_3049"
         },
         "disableGeometryUpdate": false,
-        "allowUpdateOnly": false,
-        "allowDelete": true,
+        "allowUpdateOnly": true,
+        "allowDelete": false,
         "fieldInfos": [
+          {
+            "fieldName": "direccion",
+            "isEditable": false,
+            "visible": true
+          },
           {
             "fieldName": "ubigeo",
             "isEditable": false,
             "visible": true
           },
           {
-            "fieldName": "fecha_reg",
-            "isEditable": true,
-            "visible": true
-          },
-          {
-            "fieldName": "direccion",
-            "isEditable": true,
-            "visible": true
-          },
-          {
             "fieldName": "zonificacion",
-            "isEditable": false,
-            "visible": false
-          },
-          {
-            "fieldName": "info_anun",
             "isEditable": true,
             "visible": true
           },
           {
-            "fieldName": "det_anun",
+            "fieldName": "area_terreno_auto",
             "isEditable": true,
             "visible": true
           },
           {
-            "fieldName": "enlace",
+            "fieldName": "valor_aranc_auto",
             "isEditable": true,
             "visible": true
           },
@@ -60,27 +50,62 @@
             "visible": true
           },
           {
-            "fieldName": "tipo_inmue",
-            "isEditable": false,
-            "visible": false
-          },
-          {
             "fieldName": "area_ter",
-            "isEditable": true,
+            "isEditable": false,
             "visible": true
           },
           {
             "fieldName": "area_cons",
-            "isEditable": true,
+            "isEditable": false,
             "visible": true
           },
           {
-            "fieldName": "valor_t_s",
-            "isEditable": true,
+            "fieldName": "tipo_inmue",
+            "isEditable": false,
             "visible": true
           },
           {
-            "fieldName": "val_m2",
+            "fieldName": "valor_t_d",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "nomb_conta",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "num_cel_1",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "enlace",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "fecha_carg",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "fecha_val",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "LINK_FOTO",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "fecha_reg",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "FOTO2",
             "isEditable": false,
             "visible": false
           },
@@ -130,7 +155,7 @@
             "visible": false
           },
           {
-            "fieldName": "valor_t_d",
+            "fieldName": "valor_t_s",
             "isEditable": false,
             "visible": false
           },
@@ -160,11 +185,6 @@
             "visible": false
           },
           {
-            "fieldName": "fecha_carg",
-            "isEditable": false,
-            "visible": false
-          },
-          {
             "fieldName": "fecha_act",
             "isEditable": false,
             "visible": false
@@ -175,17 +195,27 @@
             "visible": false
           },
           {
-            "fieldName": "fecha_val",
-            "isEditable": false,
-            "visible": false
-          },
-          {
             "fieldName": "val_ha",
             "isEditable": false,
             "visible": false
           },
           {
+            "fieldName": "val_m2",
+            "isEditable": false,
+            "visible": false
+          },
+          {
             "fieldName": "det_public",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "info_anun",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "det_anun",
             "isEditable": false,
             "visible": false
           },
@@ -220,14 +250,24 @@
             "visible": false
           },
           {
-            "fieldName": "LINK_FOTO",
-            "isEditable": true,
-            "visible": true
+            "fieldName": "num_cel_2",
+            "isEditable": false,
+            "visible": false
           },
           {
-            "fieldName": "FOTO2",
-            "isEditable": true,
-            "visible": true
+            "fieldName": "email",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "precio_terreno",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "promedio",
+            "isEditable": false,
+            "visible": false
           }
         ],
         "_editFlag": true,
@@ -240,7 +280,7 @@
               "enabled": true,
               "fields": [
                 {
-                  "layerId": "194994d1878-layer-9_2",
+                  "layerId": "limite_nacionalV2_8724",
                   "field": "UBIGEO",
                   "toleranceSettings": {
                     "value": 0,
